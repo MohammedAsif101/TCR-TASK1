@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FeedBack Form</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+
+</head>
+
+<body style="background-image: url('bgimage.jpg');">
+
+  <center>
+    <h1>FeedBack Form</h1>
+  </center>
+  <hr>
+
+  <br>
+
+  <img src="feedbackimg.jpg" alt="">
+
+
+  <form class="container">
+
+    First Name: <input type="text" name="First Name" /><br><br>
+
+    Last Name: <input type="text" name="Last Name" />
+    <br><br>
+    Email Address : <input type="text" email="Email Address" />
+
+    <br><br>
+
+    <div>
+      <input type="radio"  name="gender" value="male">
+      <label for="male">Male</label>
+    </div>
+    <br>
+
+
+
+    <div>
+      <input type="radio"  name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+
+    <br>
+     <h>Hobby</h><br><br>
+    <input type="checkbox"  name="hobby" value="playing">
+    <label for="playing">Playing</label>
+
+    <br>
+    <br>
+    <input type="checkbox"  name="hobby" value="reading">
+    <label for="reading">Reading</label>
+
+
+    <br>
+    <br>
+
+
+    <label for="date">Date of Submission:</label>
+    <input type="date" id="date" name="Date">
+
+
+    <br>
+    <br>
+    <label for="service">Service Type :</label>
+    <select name="service" id="service">
+      <option value="good">Good</option>
+      <option value="bad">Bad</option>
+      <option value="vgood">Very Good</option>
+      <option value="vbad">Very Bad</option>
+
+    </select>
+
+    <br>
+    <br>
+
+    <div>
+
+      <label for="message">Your Message</label>
+      <br>
+      <textarea id="message-text" name="name-texterea" rows="10" cols="50">Type your Message here</textarea>
+
+    </div>
+
+    <div class="submit">
+      <input type="submit" value="Submit!">
+    </div>
+
+    <div class="reset">
+      <input type="reset" value="Reset!">
+    </div>
+
+
+
+
+  </form>
+
+</body>
+
+</html>

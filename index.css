@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+.container{
+	position: absolute;
+    right: 35px;
+	top: 100px;
+	color: black;
+	font-weight: strong;
+
+
+}
+
+img{
+
+	
+}
+
+submit{
+	padding-bottom: 20px;
+}
+
+.reset{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+
+}
+
+hr{
+
+	margin-top: 0;
+}
